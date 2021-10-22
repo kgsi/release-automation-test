@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  },
+  "name": "release-automation-test",
+  "description": "Github Actionによるrelease自動化のテストリポジトリ",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "release": "standard-version",
+    "release:dryrun": "standard-version --dry-run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgsi/release-automation-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgsi/release-automation-test/issues"
+  },
+  "homepage": "https://github.com/kgsi/release-automation-test#readme"
+}
