@@ -7,7 +7,7 @@
   },
   "name": "release-automation-test",
   "description": "Github Actionによるrelease自動化のテストリポジトリ",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "dependencies": {},
   "scripts": {
