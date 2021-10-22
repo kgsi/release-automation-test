@@ -12,6 +12,10 @@
     "release:dryrun": "standard-version --dry-run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kgsi/release-automation-test.git"
